@@ -359,7 +359,7 @@ body {
   padding-left: 16px;
   padding-bottom: 32px;
 
-  /* border-bottom: 1px solid var(--secondary-text); */
+  
   border-bottom:1px solid var(--secondary-text); ;
   border-left:1px solid var(--secondary-text); ;
   border-right: 1px solid var(--secondary-text);;
