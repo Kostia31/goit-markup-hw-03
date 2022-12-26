@@ -21,6 +21,17 @@ body {
   color: var(--text-color);
 }
 
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.opportunities {
+  padding-bottom: 120px;
+}
+
 .secret-name {
   position: absolute;
   width: 1px;
@@ -121,29 +132,26 @@ body {
 
 .list {
   display: flex;
+  justify-content: center;
   list-style: none;
   margin: 0px;
   padding: 0px;
 }
 
-.list.main {
-  margin-bottom: 120px;
-}
 /* header */
-.header {
-  display: flex;
-  justify-content: space-between;
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 12px;
-  padding-right: 12px;
+.head {
   border-bottom: 1px solid var(--secondary-text);
 }
 
-.container.header {
-  padding: 0;
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
 .nav-header {
   display: flex;
 }
@@ -167,6 +175,10 @@ body {
   background-color: var(--logo-color);
 
   text-align: center;
+}
+
+.section.advantages {
+  padding-top: 120px;
 }
 .hero.title {
   margin-top: 0px;
@@ -202,17 +214,11 @@ body {
 .item:not(:last-child) {
   margin-right: 24px;
 }
-.container {
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 12px;
-  padding-right: 12px;
+
+.section {
   padding-bottom: 120px;
 }
-.section {
-  padding-top: 120px;
-}
+
 .second-title {
   margin: 0px 0px 8px 0px;
   padding: 0px;
@@ -240,11 +246,10 @@ body {
 
 /* team */
 
-.container.team {
-  display: flex;
-  justify-content: center;
-  background: var(--btn-secondary-clr);
-  padding: 120px 0px 120px 0px;
+.section.team {
+  padding-top: 120px;
+
+  background-color: var(--secondary-text);
 }
 
 .card {
@@ -298,6 +303,10 @@ body {
   padding-bottom: 72px;
 }
 
+.portfolio-btn {
+  padding-top: 96px;
+}
+
 .btn-portfolio {
   font-weight: 500;
   font-size: 16px;
@@ -333,29 +342,25 @@ body {
 }
 
 .list.cards {
-  margin: 0px;
-  padding-bottom: 120px;
+  margin-top: 72px;
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 
   grid-row-gap: 48px;
   grid-column-gap: 24px;
 }
 
-.cards .item-card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-  background-color: var(--accent-color);
-
-  border-radius: 0px 0px 4px 4px;
-}
-
 .image {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 32px;
+  display: block;
+}
+.card-gallery{
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-bottom: 32px;
+
+  /* border-bottom: 1px solid var(--secondary-text); */
+  border-bottom:1px solid var(--secondary-text); ;
+  border-left:1px solid var(--secondary-text); ;
+  border-right: 1px solid var(--secondary-text);;
 }
