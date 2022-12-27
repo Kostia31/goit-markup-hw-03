@@ -171,6 +171,7 @@ body {
 
 .hero {
   padding-bottom: 188px;
+  padding-top: 188px;
 
   background-color: var(--logo-color);
 
@@ -183,7 +184,7 @@ body {
 .hero.title {
   margin-top: 0px;
   margin-bottom: 48px;
-  padding-top: 188px;
+  
 
   color: var(--accent-color);
 
